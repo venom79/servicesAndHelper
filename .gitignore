@@ -1,2 +1,41 @@
 /backend/node_modules
 /backend/.env
+
+############################
+# Flutter (frontend)
+############################
+
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub/
+frontend/build/
+
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+
+frontend/.idea/
+frontend/.vscode/
+frontend/*.iml
+
+############################
+# Node (backend)
+############################
+
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+
+############################
+# General
+############################
+
+.DS_Store
+Thumbs.db
+*.log
